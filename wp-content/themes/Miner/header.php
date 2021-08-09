@@ -10,15 +10,15 @@
 <body>
 <div class="header">
   <div class="header-left">
-    <a href="<?php echo '/index.php'; ?>">
+    <a href="<?php bloginfo('url'); ?>/">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpeg" alt="header">
     </a>
   </div>
   <div class="header-right">
     <ul>
-      <li><a href="<?php echo '/index.php/about'; ?>">关于</a></li>
-      <li><a href="<?php echo '/index.php/connect'; ?>">联系</a></li>
-      <li><a href="<?php echo '/index.php/blog'; ?>">博客</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/about">关于</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/connect">联系</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/blog">博客</a></li>
     </ul>
   </div>
 
