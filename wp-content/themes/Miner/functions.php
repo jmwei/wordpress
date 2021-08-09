@@ -38,6 +38,7 @@ function miner_register_scripts() {
     示例：wp_enqueue_style( 'slider', get_template_directory_uri() . '/css/style.css', false, '1.1', 'all');
   ***********/
   wp_enqueue_style( 'mainCss', get_template_directory_uri() . '/style.css');
+  wp_enqueue_style( 'customCss', get_template_directory_uri() . '/assets/css/custom.css');
 
   /*********** 加载JavaScript脚本
     参数：wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer);

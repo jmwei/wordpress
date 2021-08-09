@@ -14,12 +14,13 @@
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpeg" alt="header">
     </a>
   </div>
-  <!-- <div class="header-right">
+  <div class="header-right">
     <ul>
       <li><a href="<?php echo '/index.php/about'; ?>">关于</a></li>
       <li><a href="<?php echo '/index.php/connect'; ?>">联系</a></li>
+      <li><a href="<?php echo '/index.php/blog'; ?>">博客</a></li>
     </ul>
-  </div> -->
+  </div>
 
   <?php wp_nav_menu(array(
     'theme_location' => 'menu',

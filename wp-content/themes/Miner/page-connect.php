@@ -2,7 +2,9 @@
 <?php get_header(); ?>
 
 <div class="content">
-    AAAAA
+    <div class="content-a">
+        AAAAAA
+    </div>
 </div>
 
 </div>
